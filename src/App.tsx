@@ -1,14 +1,16 @@
 import styled from 'styled-components'
 import React from 'react';
 import { GlobalStyle } from './styles/global';
+import { Header } from './components/Header';
+import { Dashboard } from './components/Dashboard';
 
 export function App() {
   return (
-    <div className="App">
+    <>
       <GlobalStyle />
-      <h1>Hello World</h1>
-      <button></button>
-    </div>
+      <Header />
+      <Dashboard />
+    </>
   );
 }
 
