@@ -37,5 +37,6 @@ color: var(--text-title);
 
 h1 {
   padding-left: 10px;
+  color: white;
 }
 `
