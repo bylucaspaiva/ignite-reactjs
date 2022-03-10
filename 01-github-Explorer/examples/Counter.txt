@@ -1,0 +1,27 @@
+import {useState} from 'react';
+
+export function Counter () {
+  //desestruturação de array, useState retorna um vetor com 2 elementos
+  // então eu escolho chama-los de counter, setCounter
+  const [counter, setCounter] = useState(0);
+
+  function increment () {
+    setCounter(counter + 1);
+  }
+  function decrement () {
+    setCounter(counter - 1);
+  }
+
+  function reset () {
+    setCounter(0);
+  }
+  
+  return (
+    <div>
+      <h2>{counter}</h2>
+      <button type="button" onClick={increment}>Increment</button>
+      <button type="button" onClick={decrement}>Decrement</button>
+      <button type="button" onClick={reset}>Reset</button>
+    </div>
+  );
+}
