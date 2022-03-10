@@ -17,7 +17,7 @@ This project was maded with:
 - [React Modal](https://github.com/reactjs/react-modal)
 - [Styled Components](https://github.com/styled-components/styled-components)
 
-# :construction_worker: Executando
+# Execute
 
 ```bash
 # Clone the repository
