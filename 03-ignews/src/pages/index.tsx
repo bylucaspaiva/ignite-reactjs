@@ -4,11 +4,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Início | ignews</title>
+        <title>Home | ignews</title>
       </Head>
-      <h1>
-        Hello World
-      </h1>
+      <main>
+        <section>
+          <img src="/images/woman.svg" alt="girl programming" />
+        </section>
+      </main>
     </>
     
   )
