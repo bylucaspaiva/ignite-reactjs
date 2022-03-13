@@ -9,5 +9,4 @@ export function SubscribeButton () {
       Subscribe now 
     </button>
   );
-
 }
