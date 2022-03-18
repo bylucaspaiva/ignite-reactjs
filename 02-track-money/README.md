@@ -31,7 +31,7 @@ https://github.com/bylucaspaiva/ignite-reactjs.git
 
 ```bash
 # Acess the directory
-$ cd 02-dtmoney
+$ cd 02-track-money
 ```
 
 ```bash
