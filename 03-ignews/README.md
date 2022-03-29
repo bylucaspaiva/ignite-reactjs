@@ -1,5 +1,10 @@
 # ignews
 
+<div>
+  <img src="https://user-images.githubusercontent.com/58491622/160709250-487a8522-13a7-48e7-9c53-e2b3efb1a694.png" width="330px"/>
+  <img src="https://user-images.githubusercontent.com/58491622/160709255-40bc2cbe-2626-45a0-9f34-6cf0a2cbfd8e.png" width="330px"/>
+</div>
+
 This project is from ignite reactjs trial from [Rocketseat](https://github.com/Rocketseat).
 
 ## Tecnologies
