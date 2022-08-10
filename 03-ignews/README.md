@@ -32,3 +32,35 @@ $ https://github.com/bylucaspaiva/ignite-reactjs.git
 # Access the directory of project
 $ cd 03-ignews
 ```
+
+```bash
+# Create an .env.local file
+
+# Stripe
+STRIPE_API_KEY=
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=
+STRIPE_API_PRICE_KEY=
+STRIPE_WEBHOOK_SECRET=
+STRIPE_SUCESS_URL=
+STRIPE_CANCEL_URL=
+
+# Github
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+
+# FaunaDB
+FAUNADB_KEY=
+```
+
+```bash
+# install dependencies
+$ yarn
+```
+
+```bash
+# Execute
+$ yarn start
+```
+
+Acess <http://localhost:3000> to see the result.
+
